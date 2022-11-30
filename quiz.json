@@ -1,0 +1,14 @@
+[
+	{
+		"question": "Qual o nome do Sub-Zero que Scorpion matou?",
+		"answers": ["Bi-Han", "Bi Han"]
+	},
+	{
+		"question": "Quantas letras tem o alfabeto?",
+		"answers": ["26", "twenty-six", "twenty six", "twentysix", "vinte e seis"]
+	},
+    {
+		"question": "Quem criou o JavaScript?",
+		"answers": ["Brendan Eich", "brendan eich"]
+	}
+]
