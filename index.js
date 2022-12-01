@@ -5,7 +5,7 @@ const prefixo = '$'
 
 const fs = require('node:fs');
 const path = require('node:path');
-const { Client, Collection, GatewayIntentBits } = require('discord.js');
+const { Client, Collection, GatewayIntentBits, Message, Events } = require('discord.js');
 const { token } = require('./config.json');
 
 // Create a new client instance
@@ -42,6 +42,24 @@ for (const file of commandFiles) {
 		console.log(`[WARNING] The command at ${filePath} is missing a required "data" or "execute" property.`);
 	}
 }
+
+// comandos de chat
+
+client.on(Events.InteractionCreate, interaction => {
+	if (!interaction.isChatInputCommand()) return;
+
+	const { commandName } = interaction;
+
+	if (commandName === 'oi') {
+		interaction.reply('Olá!');
+	} else if (commandName === 'beep') {
+		interaction.reply('Boop.');
+	} else if (commandName === 'server') {
+		interaction.reply('Guild name: ' + interaction.guild.name + '\nTotal members: ' + interaction.guild.memberCount);
+	} else if (commandName === 'user-info') {
+		interaction.reply('Your username: ' + interaction.user.username + '\nYour ID: ' + interaction.user.id);
+	}
+});
 
 // quiz
 
