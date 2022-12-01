@@ -45,21 +45,7 @@ for (const file of commandFiles) {
 
 // comandos de chat
 
-client.on(Events.InteractionCreate, interaction => {
-	if (!interaction.isChatInputCommand()) return;
 
-	const { commandName } = interaction;
-
-	if (commandName === 'oi') {
-		interaction.reply('Olá!');
-	} else if (commandName === 'beep') {
-		interaction.reply('Boop.');
-	} else if (commandName === 'server') {
-		interaction.reply('Guild name: ' + interaction.guild.name + '\nTotal members: ' + interaction.guild.memberCount);
-	} else if (commandName === 'user-info') {
-		interaction.reply('Your username: ' + interaction.user.username + '\nYour ID: ' + interaction.user.id);
-	}
-});
 
 // quiz
 
