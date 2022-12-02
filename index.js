@@ -52,7 +52,7 @@ client.on("ready", () => {
     {
         rest.put(Routes.applicationGuildCommands(process.env.CLIENT_ID, guildId), 
             {body: commands})
-        .then(() => console.log('Successfully! O pai tá on'))
+        .then(() => console.log(`Bot ${client.user.username} has been logged in and is ready to use`))
         .catch(console.error);
     }
 });

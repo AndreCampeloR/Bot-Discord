@@ -291,6 +291,11 @@
   "resolved" "https://registry.npmjs.org/detect-libc/-/detect-libc-2.0.1.tgz"
   "version" "2.0.1"
 
+"discord-api-types@^0.26.1":
+  "integrity" "sha512-T5PdMQ+Y1MEECYMV5wmyi9VEYPagEDEi4S0amgsszpWY0VB9JJ/hEvM6BgLhbdnKky4gfmZEXtEEtojN8ZKJQQ=="
+  "resolved" "https://registry.npmjs.org/discord-api-types/-/discord-api-types-0.26.1.tgz"
+  "version" "0.26.1"
+
 "discord-api-types@^0.36.2":
   "integrity" "sha512-bz/NDyG0KBo/tY14vSkrwQ/n3HKPf87a0WFW/1M9+tXYK+vp5Z5EksawfCWo2zkAc6o7CClc0eff1Pjrqznlwg=="
   "resolved" "https://registry.npmjs.org/discord-api-types/-/discord-api-types-0.36.3.tgz"
@@ -311,7 +316,16 @@
     "tiny-typed-emitter" "^2.1.0"
     "tslib" "^2.4.0"
 
-"discord.js@^14.7.1":
+"discord-trivia@^1.2.3":
+  "integrity" "sha512-YYbTWPUipp+MoR5NQo90LGshWKztP9/jkj3pnZni/Rtp+evwqiFvR+3We61Rjzqk/NiIPihp5rTQz4ZlZDleSA=="
+  "resolved" "https://registry.npmjs.org/discord-trivia/-/discord-trivia-1.2.3.tgz"
+  "version" "1.2.3"
+  dependencies:
+    "discord-api-types" "^0.26.1"
+    "discord.js" "^14.1.2"
+    "open-trivia-db" "^1.0.1"
+
+"discord.js@^14.1.2", "discord.js@^14.7.1":
   "integrity" "sha512-1FECvqJJjjeYcjSm0IGMnPxLqja/pmG1B0W2l3lUY2Gi4KXiyTeQmU1IxWcbXHn2k+ytP587mMWqva2IA87EbA=="
   "resolved" "https://registry.npmjs.org/discord.js/-/discord.js-14.7.1.tgz"
   "version" "14.7.1"
@@ -628,6 +642,16 @@
   "version" "1.4.0"
   dependencies:
     "wrappy" "1"
+
+"open-trivia-db@^1.0.1":
+  "integrity" "sha512-c5G7gexA+Kvo952JuNnHhqa1GDlI+zAhizYidO9mYAxfV9pzY8EjAfBoh36lrj38jMBW88lIJhdS+BlVNdGnPQ=="
+  "resolved" "https://registry.npmjs.org/open-trivia-db/-/open-trivia-db-1.0.2.tgz"
+  "version" "1.0.2"
+
+"open-trivia-db@^2.0.0":
+  "integrity" "sha512-I3Slxg7koEJt/l+sdbKN5qfzOZkb9kSyKKXfRcLbY9Upx5akGttkXn1QhJUPTIauhe+hx6l1lmCWCO5kqcsRjw=="
+  "resolved" "https://registry.npmjs.org/open-trivia-db/-/open-trivia-db-2.0.0.tgz"
+  "version" "2.0.0"
 
 "parse-cache-control@^1.0.1":
   "integrity" "sha512-60zvsJReQPX5/QP0Kzfd/VrpjScIQ7SHBW6bFCYfEP+fp0Eppr1SHhIO5nd1PjZtvclzSzES9D/p5nFJurwfWg=="

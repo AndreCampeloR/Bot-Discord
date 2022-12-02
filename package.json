@@ -23,8 +23,10 @@
     "@discordjs/voice": "^0.14.0",
     "atob": "^2.1.2",
     "discord-player": "^5.3.2",
+    "discord-trivia": "^1.2.3",
     "discord.js": "^14.7.1",
     "dotenv": "^16.0.3",
-    "ffmpeg-static": "^5.1.0"
+    "ffmpeg-static": "^5.1.0",
+    "open-trivia-db": "^2.0.0"
   }
 }
