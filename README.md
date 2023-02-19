@@ -21,8 +21,7 @@
 </p>
 
 ## 📝 Sobre
-
-
+O projeto é um Bot de discord que reproduz audio de musicas e videos do youtube 
 
 ## 📹 Video de apresentação do projeto
 
@@ -30,6 +29,7 @@
 
 ## 🚀 Tecnologias utilizadas 
 - JS
+- Node
 
 ## 📖 Clonando o projeto
 
